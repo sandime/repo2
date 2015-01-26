@@ -1,0 +1,354 @@
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    min-width: 0px;
+}
+ul, li {
+    font-family: Avenir;
+    clear: both;
+    /*margin-left: 6%;*/
+
+}
+#box {
+    float: none;
+    height: 1100px;
+    margin: 10% auto;
+    clear: none;
+    width: 850px;
+    position: relative;
+    -webkit-box-shadow: rgb(112, 112, 112) 0px 0px 10px 1px;
+    box-shadow: rgb(112, 112, 112) 0px 0px 10px 1px;
+}
+
+#box1 {
+    float: left;
+    height: 85px;
+    clear: none;
+    width: 100%;
+    background-color: rgb(56, 56, 56);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-bottom: 0px;
+}
+
+#box5 {
+    float: left;
+    height: 85px;
+    clear: right;
+    width: 100%;
+    background-color: rgb(56, 56, 56);
+    position: absolute;
+    top: auto;
+    left: 0px;
+    bottom: 0px;
+}
+
+#text3 {
+    float: left;
+    font-size: 1em;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0%;
+    margin-top: 20px;
+    clear: both;
+    min-height: 107px;
+    margin-right: 0%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#text1 {
+    float: left;
+    font-size: 3em;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-weight: 600;
+    line-height: 1em;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    min-height: 0px;
+    font-family: Avenir;
+    margin-right: 0%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#textspan {
+    float: none;
+    font-size: 12px;
+    line-height: 1.3em;
+    font-family: Avenir;
+}
+
+#text4 {
+    float: left;
+    font-size: 1em;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0%;
+    margin-top: 20px;
+    clear: both;
+    min-height: 107px;
+    margin-right: 0%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#textspan1 {
+    float: none;
+    font-size: 12px;
+    line-height: 1.3em;
+    font-family: Avenir;
+}
+
+#text5 {
+    float: left;
+    font-size: 1em;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0%;
+    margin-top: 20px;
+    clear: both;
+    min-height: 107px;
+    margin-right: 0%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#textspan2 {
+    float: none;
+    font-size: 11px;
+    line-height: 1.3em;
+    font-family: Avenir;
+}
+
+#box2 {
+    float: left;
+    height: auto;
+    margin-left: 5.992647%;
+    margin-top: 8%;
+    clear: both;
+    width: 40.177515%;
+}
+
+#box3 {
+    float: right;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 8%;
+    clear: none;
+    width: 43.37816%;
+    margin-right: 6%;
+}
+
+#sampleMovie {
+    float: left;
+    height: auto;
+    clear: none;
+    width: 100%;
+    /*background-color: rgb(199, 103, 103);*/
+}
+
+#text6 {
+    float: left;
+    font-size: 2em;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 6%;
+    margin-top: 22px;
+    clear: none;
+    min-height: 39px;
+    font-family: Avenir;
+    text-decoration: underline;
+    position: relative;
+}
+
+#text {
+    float: left;
+    font-size: 2em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 5.995159%;
+    margin-top: 23px;
+    clear: none;
+    min-height: 33px;
+    color: rgb(255, 255, 255);
+    font-family: 'Avenir Next';
+    margin-bottom: auto;
+}
+
+#text2 {
+    float: left;
+    font-size: 1em;
+    width: 99.849012%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 20px 0% 0px 0.0045754%;
+    clear: both;
+    min-height: 107px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#Span {
+    float: none;
+    font-size: 12px;
+    line-height: 1.3em;
+    font-family: Avenir;
+}
+
+@media only screen and (max-width: 875px) {
+    #box {
+        margin-top: 10%;
+        margin-left: auto;
+        clear: none;
+        width: 615px;
+        margin-right: auto;
+        height: auto;
+    }
+
+    #box2 {
+        margin-bottom: 8%;
+        margin-left: 6%;
+    }
+
+    #text1 {
+        font-size: 2em;
+    }
+
+    #text2 {
+        font-size: 10px;
+        font-family: Avenir;
+        width: 100%;
+    }
+
+    #Span {
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    #textspan {
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    #textspan1 {
+        font-family: Avenir;
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    #box5 {
+        position: relative;
+        bottom: auto;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        margin-top: auto;
+        margin-left: 0%;
+        clear: right;
+    }
+
+    #textspan2 {
+        line-height: 16px;
+        font-family: Avenir;
+    }
+
+    #text6 {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #box3 {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: auto;
+        margin: 0% 6%;
+        float: none;
+        clear: both;
+    }
+
+    #box4 {
+        width: 100%;
+        height: 185px;
+    }
+
+    #text6 {
+        width: auto;
+        margin-right: 6%;
+        margin-left: 0%;
+    }
+
+    #box2 {
+        margin-top: 7.997644%;
+        margin-left: 5.997531%;
+        clear: both;
+        width: auto;
+        margin-right: 6%;
+    }
+
+    #box5 {
+        margin-top: 7.997644%;
+        margin-left: 0px;
+        clear: none;
+        position: relative;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        display: block;
+    }
+
+    #box {
+        margin-top: 9.997596%;
+        margin-left: 6%;
+        clear: none;
+        width: auto;
+        margin-right: 6%;
+    }
+}
+
+@media only screen and (max-width: 348px) {
+    #text {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        clear: none;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    #box5 {
+        height: 44px;
+    }
+}
+
