@@ -5,6 +5,7 @@
     min-height: 100%;
     width: 100%;
     min-width: 0px;
+    background-color: blue;
 }
 ul, li {
     font-family: Avenir;
