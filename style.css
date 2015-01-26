@@ -82,6 +82,8 @@ ul, li {
     position: relative;
     top: 0px;
     left: 0px;
+    color: red;
+    background-color: yellow;
 }
 
 #textspan {
@@ -170,7 +172,7 @@ ul, li {
 
 #text6 {
     float: left;
-    font-size: 2em;
+    font-size: 5em;
     width: 100%;
     height: auto;
     text-align: left;
@@ -183,6 +185,7 @@ ul, li {
     font-family: Avenir;
     text-decoration: underline;
     position: relative;
+    color: yellow;
 }
 
 #text {
